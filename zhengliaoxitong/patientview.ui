@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PatientView</class>
+ <widget class="QWidget" name="PatientView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>患者管理</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="txtSearch">
+       <property name="placeholderText">
+        <string>请输入姓名查找</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSearch">
+       <property name="text">
+        <string>查找</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/hebi_/Desktop/images/查找 (1).png</normaloff>C:/Users/hebi_/Desktop/images/查找 (1).png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btAdd">
+       <property name="text">
+        <string>添加</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/hebi_/Desktop/images/添加.png</normaloff>C:/Users/hebi_/Desktop/images/添加.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btDelete">
+       <property name="text">
+        <string>删除</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/hebi_/Desktop/images/删除.png</normaloff>C:/Users/hebi_/Desktop/images/删除.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btEdit">
+       <property name="text">
+        <string>修改</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/hebi_/Desktop/images/修改、修改资料.png</normaloff>C:/Users/hebi_/Desktop/images/修改、修改资料.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>C:/Users/hebi_/Desktop/images/back.png</file>
+        <file>C:/Users/hebi_/Desktop/images/Login.png</file>
+        <file>C:/Users/hebi_/Desktop/images/outline-logout-1.png</file>
+        <file>C:/Users/hebi_/Desktop/images/return.png</file>
+    </qresource>
+</RCC>
